@@ -31,7 +31,7 @@ class SessionController extends Controller
         ];
 
         if(auth()->attempt($logininfo)){
-            return redirect('/')->with('success', 'Login Success');
+            return redirect('/posts')->with('success', 'Login Success');
         }else{
             return redirect()->back()->withErrors('Invalid Credentials');
         }
