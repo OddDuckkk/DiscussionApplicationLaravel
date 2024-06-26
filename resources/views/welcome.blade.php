@@ -25,11 +25,12 @@ body {
 
 .container {
     text-align: center;
-    color: white;
+    color: #1e90ff;
+    background-color: white;
     max-width: 600px;
     padding: 20px;
     border-radius: 10px;
-    background: rgba(255, 255, 255, 0.1);
+    /* background: rgba(255, 255, 255, 0.1); */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -47,11 +48,12 @@ p {
     display: flex;
     justify-content: center;
     gap: 20px;
+
 }
 
 .btn {
-    background: white;
-    color: #1e90ff;
+    background: #87cefa;
+    color: white;
     padding: 10px 20px;
     text-decoration: none;
     font-weight: bold;
